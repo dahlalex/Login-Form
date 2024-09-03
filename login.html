@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="se">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="loginStyle.css">
+  <title>Logga in</title>
+</head>
+
+<body>
+  <section id="login-section">
+    <div id="login-container">
+      <h1 id="login-h1">Logga in</h1>
+      <form id="login-form">
+        <input type="text" class="login-input-field" id="login-username" placeholder="Användarnamn" required />
+        <input type="password" class="login-input-field" id="login-password" placeholder="Lösenord" required />
+        <input type="submit" class="login-submit-btn" value="Logga in" />
+      </form>
+      <div id="login-error-message"></div>
+    </div>
+  </section>
+  <script src="loginScript.js"></script>
+</body>
+
+</html>
